@@ -18,12 +18,12 @@ int main(){
 	PMatrix[0][0]=100;
 	cout<<"\n Direcciones de memoria\n"<<&PMatrix[0][0]<<"\n"<<&PMatrix[2][1]<<"\n"<<&PMatrix[5][1]<<"\n"<<&PMatrix[1][10]<<"\n"<<&PMatrix[2][10]<<"\n"<<&PMatrix[5][3]<<"\n"<<&PMatrix[9][19];
 
-//1. Si es valida, la desreferencia	
+
 	PMatrix[0][0]=*(*PMatrix);
-//Prueba
+
 	cout<<"\n"<<PMatrix[0][0]<<"\n";
 
-//2. Se hara con un for anidado
+// for anidado
   /* No es valida la opcion
       for(int i=0;i<10;i++){
        for(int j=0;j<20;j++){
@@ -33,7 +33,7 @@ int main(){
 	   a=0;
 	}
  */  
- //3. Si es valida la opcion y es la mejor 
+ //si es valida la opcion y es la mejor 
  /*
     for(int i=0;i<10;i++){
        for(int j=0;j<20;j++){
@@ -50,7 +50,7 @@ int main(){
 	}
 */
 
-/*4. Si es valida la opcion
+/*si es valida la opcion
     for(int i=0;i<10;i++){
        for(int j=0;j<20;j++){
        	 *(PMatrix[i]+j)=a;
@@ -66,7 +66,7 @@ int main(){
 	}
 */
 
-/*5. Si es valida la opcion
+/*si es valida la opcion
     for(int i=0;i<10;i++){
        for(int j=0;j<20;j++){
        	 (*(PMatrix+i))[j]=a;
