@@ -1,0 +1,80 @@
+Gabriela Solorzano 00185119
+
+//A
+pila=5
+valid= true
+SegundoDato=0
+
+while(Cuando el segundo elemento salga)
+
+if(empty(s)){
+valid=false
+break
+}
+
+if (!empty(s)){
+valid=true
+x=pop(s)
+}
+
+if (!empty(s)){
+valid=true
+segundoDato = pop(s)
+break
+}
+
+
+---------------------------------------------------------------------------------------------------------------			
+				
+//B
+
+pila=5
+valid=true
+SegundoDato=0
+
+while(Hasta que sepamos el segundo elemento)
+
+if(empty(s)){
+valid=false
+break
+}
+
+if(!empty(s)){
+valid=true 
+x=pop(s)
+}
+
+if(!empty(s)){
+valid=true 
+segundoDato=pop(s)
+push(s, segundoDato)
+push(s, x)
+return segundo
+break
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
