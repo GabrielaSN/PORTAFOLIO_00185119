@@ -1,0 +1,14 @@
+Gabriela Beatriz Solorzano Nuila 00185119
+Ej1:
+A-B/(C*D$E)
+
+=A-B/(C*DE$)
+=A-B/(CDE$*)
+=AB-CDE$*/ "Respuesta"
+--------------------------
+Ej2:
+
+((A+B)*C-(D-E))$(F+G)
+
+=((AB+)*C-(DE-))$(FG+)
+=AB+C*DE--FG+$ "Respuesta"
